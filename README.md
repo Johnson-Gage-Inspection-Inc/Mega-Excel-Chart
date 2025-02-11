@@ -1,32 +1,4 @@
-# Template Repo for handling Excel Files
-
-## Description
-This template provides the default configuration for syncing an Excel workbook throughout Johnson Gage & Inspection.
-
-## Configuration
-
-Any time you use this template, you'll need to configure it by setting the variables in the .env file.
-
-By default, the .env file will look something like this:
-```
-SOP_ID=
-DOC_ID=
-DOC_TITLE=
-DOC_DETAILS=
-```
-
-
-If your excel file isn't already on Qualer, you'll need to create one [here](https://jgiquality.qualer.com/documents).
-
-Go to the document on qualer, and observe the URL.  It should look something like this:
-```
-https://jgiquality.qualer.com/Sop/Sop?sopId=2822
-```
-
-Copy the `sopId` from the url into your env file as the value for `SOP_ID`.
-
-You may set the other variables however you like, as they just correspond to the Document Title, Document Id, and Document Details as seen in Qualer (The values in the .env file will override the data in Qualer with each PR).
-![image](https://github.com/user-attachments/assets/ce6ed96c-2854-4b12-8780-a677724cefcb)
+# Mega Excel Chart
 
 ## Structure
 
